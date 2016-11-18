@@ -46,11 +46,21 @@ section .blanco {
     background: white;
 }
 
-section .col-md-6 .tres{
+section .blanco .tres{
     background: #DCD7D7;
+    height: 300px;
+    width: 300px;
+    padding: 80px;
+    position: relative;
+    left: 130px;
+    margin: 20px;                                                                                                                                       
     
 }
-   
+ .container .blanco .tres button{
+    
+}
+  
+
     
 
 /*     section    */

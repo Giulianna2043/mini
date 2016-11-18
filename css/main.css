@@ -1,0 +1,76 @@
+
+*{
+    outline: 1px solid red;
+}
+
+
+header {
+    background-color: #FFCC00;
+    height: 500px;
+}
+
+header .col-md-6 ul{
+    list-style: none;
+}
+header .col-md-6 ul li{
+    display: inline;
+    font-size: 18px;
+    margin: 5px;
+}
+
+header .col-md-6 button{
+    background-color: orange;
+    border: 1px solid orange;
+    height: 45px;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 40px;
+    color: white
+    
+}
+header  h1, h4{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+header h4{
+    font-size: 20px;
+    
+}
+
+/*     section    */
+section {
+    background: #ECE3E3;
+}
+section .blanco {
+    background: white;
+}
+
+section .col-md-6 .tres{
+    background: #DCD7D7;
+    
+}
+   
+    
+
+/*     section    */
+
+
+footer{
+	background-color: black;
+	margin-top: 12px;
+    padding-left: 30px;
+}
+
+footer p{
+	color: white;
+	font-size: 20px;
+	padding: 20px 0;
+}
+
+
+
+
+
+
+

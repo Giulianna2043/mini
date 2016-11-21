@@ -4,7 +4,8 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Slabo 27px', serif;}
+    font-family: Roboto;
+}
 
 header {
     background-color: #FFCC00;
@@ -17,7 +18,7 @@ header .col-md-6 ul{
 header .col-md-6 ul li{
     display: inline;
     font-size: 18px;
-    margin: 5px;
+    margin: 30px;
     padding-top: 20px;
     color: white;
 }
@@ -35,7 +36,7 @@ header .col-md-6 button{
 header  h1, h4{
     text-align: center;
     color: white;
-    font-size: 30px;
+    font-size: 50px;
 }
 header h4{
     font-size: 20px;
@@ -63,32 +64,43 @@ section {
 
 }
 .caja{
-    padding-top: 20px;
+  
+    padding: 20px;
     margin-top: 70px;
 }
 .caja h2{
-    position: relative;
-    left: 10px;
+    text-align: justify;
+    color: gray;
+    padding: 10px;
 }
 .caja p{
     position: relative;
-    left: 20px;
-    padding: 0 0 15px 0px;
+    left: 15px;
+    padding: 0 0 25px 0px;
+    color: gray;
+    font-size: 18px;
+  
+    
 }
 .cajas{
-    padding-top: 20px;
+    padding: 20px;
     margin-top: 30px;
 }
 
 .cajas h2{
-    position: relative;
-    left: 10px;
+   padding: 10px;
+    color: gray;
+    text-align: justify;
+
+    
 }
 .cajas p{
     position: relative;
-    left: 20px;
-    padding: 0 0 15px 0px;
-   
+    left:15px;
+    text-align:justify;
+    color: grey;
+    font-size: 18px;
+    
 }
 
 .tres p{
@@ -103,6 +115,7 @@ section {
 .caja button{
      background-color: orange;
     border: 1px solid orange;
+    margin-bottom: 15px;
     margin-left: 250px;
     color: white
 
